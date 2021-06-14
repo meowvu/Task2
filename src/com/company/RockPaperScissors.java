@@ -82,9 +82,9 @@ public class RockPaperScissors {
                     case 'К':
                         return Move.ROCK;
                     case 'Н':
-                        return Move.PAPER;
-                    case 'Б':
                         return Move.SCISSORS;
+                    case 'Б':
+                        return Move.PAPER;
                     case 'Ч':
                         return Move.HUMAN;
                     case 'В':
